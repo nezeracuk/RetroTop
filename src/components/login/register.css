@@ -1,0 +1,104 @@
+.auth-container-wrapper {
+    background-image: url('../../context/images/backImg_register.webp');
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+    min-height: 94.8vh;
+}
+
+
+.auth-container {
+    min-width: 600px;
+    width: 40%;
+    padding: 40px;
+    background-color: #e8d8ff;
+    border-radius: 12px;
+    box-shadow: 0 6px 25px rgba(64, 0, 128, 0.2);
+    text-align: center;
+    position: relative;
+    border: 2px solid #7b00ff;
+
+.auth-container h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #5b00a5;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 3px rgba(91, 0, 165, 0.5);
+}
+
+.auth-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.auth-container input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #a100ff;
+    border-radius: 8px;
+    outline: none;
+    background-color: #f8f0ff;
+    color: #5b00a5;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.auth-container input:focus {
+    border-color: #8e00ff;
+    box-shadow: 0 0 8px rgba(142, 0, 255, 0.5);
+}
+
+.auth-container button {
+    background-color: #7d00ff;
+    color: white;
+    font-size: 18px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.auth-container button:hover {
+    background-color: #5e00b3;
+    box-shadow: 0 4px 12px rgba(94, 0, 179, 0.4);
+}
+
+.auth-container .error {
+    color: #a000ff;
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.auth-container p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #8000c8;
+}
+
+.auth-container .switch-link {
+    color: #9d00ff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.auth-container .switch-link:hover {
+    color: #a600ff;
+    text-shadow: 1px 1px 5px rgba(166, 0, 255, 0.5);
+}
+
+}
